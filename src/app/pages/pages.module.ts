@@ -8,11 +8,13 @@ import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { Graphics1Component } from './graphics1/graphics1.component';
 import { ProgressComponent } from './progress/progress.component';
+import { PagesRoutes } from './pages.routes';
 
 @NgModule({
   imports: [
     RouterModule,
-    SharedModule
+    SharedModule,
+    PagesRoutes
   ],
   exports: [
     PagesComponent,
